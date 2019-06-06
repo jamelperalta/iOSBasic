@@ -12,6 +12,15 @@
 		197D03FA22A70E8000AA0E44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 197D03F822A70E8000AA0E44 /* Main.storyboard */; };
 		197D03FC22A70E8200AA0E44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 197D03FB22A70E8200AA0E44 /* Assets.xcassets */; };
 		197D03FF22A70E8200AA0E44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 197D03FD22A70E8200AA0E44 /* LaunchScreen.storyboard */; };
+		197D040922A710AB00AA0E44 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197D040822A710AB00AA0E44 /* ViewController2.swift */; };
+		197D040B22A710C400AA0E44 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197D040A22A710C400AA0E44 /* ViewController3.swift */; };
+		197D040D22A7128100AA0E44 /* REDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197D040C22A7128100AA0E44 /* REDViewController.swift */; };
+		197D040F22A7128F00AA0E44 /* BLUEViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197D040E22A7128F00AA0E44 /* BLUEViewController.swift */; };
+		197D041122A712B000AA0E44 /* OTHERViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197D041022A712B000AA0E44 /* OTHERViewController.swift */; };
+		197D041322A830C300AA0E44 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197D041222A830C300AA0E44 /* DetailsViewController.swift */; };
+		197D041522A835D000AA0E44 /* otherTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197D041422A835D000AA0E44 /* otherTableCell.swift */; };
+		197D041722A8492A00AA0E44 /* blueCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197D041622A8492A00AA0E44 /* blueCollectionCell.swift */; };
+		197D041A22A84D2200AA0E44 /* gameicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 197D041922A84D2200AA0E44 /* gameicon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +31,15 @@
 		197D03FB22A70E8200AA0E44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		197D03FE22A70E8200AA0E44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		197D040022A70E8200AA0E44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		197D040822A710AB00AA0E44 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		197D040A22A710C400AA0E44 /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		197D040C22A7128100AA0E44 /* REDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REDViewController.swift; sourceTree = "<group>"; };
+		197D040E22A7128F00AA0E44 /* BLUEViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLUEViewController.swift; sourceTree = "<group>"; };
+		197D041022A712B000AA0E44 /* OTHERViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTHERViewController.swift; sourceTree = "<group>"; };
+		197D041222A830C300AA0E44 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		197D041422A835D000AA0E44 /* otherTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = otherTableCell.swift; sourceTree = "<group>"; };
+		197D041622A8492A00AA0E44 /* blueCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blueCollectionCell.swift; sourceTree = "<group>"; };
+		197D041922A84D2200AA0E44 /* gameicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gameicon.png; path = ../../../../../Documents/Pictures/gameicon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +72,31 @@
 		197D03F322A70E8000AA0E44 /* TestingiOS */ = {
 			isa = PBXGroup;
 			children = (
+				197D041822A84C7100AA0E44 /* image */,
 				197D03F422A70E8000AA0E44 /* AppDelegate.swift */,
 				197D03F622A70E8000AA0E44 /* ViewController.swift */,
+				197D040822A710AB00AA0E44 /* ViewController2.swift */,
+				197D040A22A710C400AA0E44 /* ViewController3.swift */,
 				197D03F822A70E8000AA0E44 /* Main.storyboard */,
 				197D03FB22A70E8200AA0E44 /* Assets.xcassets */,
 				197D03FD22A70E8200AA0E44 /* LaunchScreen.storyboard */,
 				197D040022A70E8200AA0E44 /* Info.plist */,
+				197D040C22A7128100AA0E44 /* REDViewController.swift */,
+				197D040E22A7128F00AA0E44 /* BLUEViewController.swift */,
+				197D041022A712B000AA0E44 /* OTHERViewController.swift */,
+				197D041222A830C300AA0E44 /* DetailsViewController.swift */,
+				197D041422A835D000AA0E44 /* otherTableCell.swift */,
+				197D041622A8492A00AA0E44 /* blueCollectionCell.swift */,
 			);
 			path = TestingiOS;
+			sourceTree = "<group>";
+		};
+		197D041822A84C7100AA0E44 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				197D041922A84D2200AA0E44 /* gameicon.png */,
+			);
+			path = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +157,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				197D041A22A84D2200AA0E44 /* gameicon.png in Resources */,
 				197D03FF22A70E8200AA0E44 /* LaunchScreen.storyboard in Resources */,
 				197D03FC22A70E8200AA0E44 /* Assets.xcassets in Resources */,
 				197D03FA22A70E8000AA0E44 /* Main.storyboard in Resources */,
@@ -135,8 +171,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				197D041522A835D000AA0E44 /* otherTableCell.swift in Sources */,
+				197D041722A8492A00AA0E44 /* blueCollectionCell.swift in Sources */,
+				197D040D22A7128100AA0E44 /* REDViewController.swift in Sources */,
 				197D03F722A70E8000AA0E44 /* ViewController.swift in Sources */,
 				197D03F522A70E8000AA0E44 /* AppDelegate.swift in Sources */,
+				197D041322A830C300AA0E44 /* DetailsViewController.swift in Sources */,
+				197D040B22A710C400AA0E44 /* ViewController3.swift in Sources */,
+				197D040F22A7128F00AA0E44 /* BLUEViewController.swift in Sources */,
+				197D040922A710AB00AA0E44 /* ViewController2.swift in Sources */,
+				197D041122A712B000AA0E44 /* OTHERViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
